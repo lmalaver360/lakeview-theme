@@ -223,7 +223,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 4rem;
   }
 
   .page-width--narrow {
@@ -2207,7 +2207,7 @@ input[type='checkbox'] {
   padding-bottom: 1rem;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1102px) {
   .header {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -2289,7 +2289,7 @@ input[type='checkbox'] {
   }
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1102px) {
   .header__heading-link {
     margin-left: -0.75rem;
   }
@@ -2399,7 +2399,7 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1102px) {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
     display: inline-flex;
@@ -2551,7 +2551,7 @@ details[open] > .header__submenu {
   margin-left: 0;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1102px) {
   .header__inline-menu {
     display: block;
   }
