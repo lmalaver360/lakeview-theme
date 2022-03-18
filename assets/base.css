@@ -78,6 +78,8 @@
   --color-button-text: var(--color-base-outline-button-labels);
   --color-button: var(--color-background);
   --alpha-button-background: 1;
+  letter-spacing: 1.8px !important;
+  
 }
 
 .color-background-2 .button--secondary,
@@ -1268,7 +1270,7 @@ button.shopify-payment-button__button--unbranded,
 .shopify-challenge__button,
 .customer button,
 button.shopify-payment-button__button--unbranded {
-  min-width: calc(12rem + var(--buttons-border-width) * 2);
+  /*min-width: calc(12rem + var(--buttons-border-width) * 2);*/
   min-height: calc(4.5rem + var(--buttons-border-width) * 2);
 }
 
@@ -1287,7 +1289,7 @@ button.shopify-payment-button__button--unbranded {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 0 3rem;
+  padding: 0 1rem;
   cursor: pointer;
   font: inherit;
   font-size: 1.5rem;
@@ -1322,7 +1324,7 @@ button.shopify-payment-button__button--unbranded {
 .shopify-payment-button__button--unbranded:after {
   content: '';
   position: absolute;
-  top: var(--buttons-border-width);
+  top: auto;
   right: var(--buttons-border-width);
   bottom: var(--buttons-border-width);
   left: var(--buttons-border-width);
@@ -1337,7 +1339,7 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button:hover::after,
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
-  --border-offset: 1.3px;
+  --border-offset: 0.3px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button), var(--alpha-button-background));
 }
@@ -2207,7 +2209,7 @@ input[type='checkbox'] {
   padding-bottom: 1rem;
 }
 
-@media screen and (min-width: 1102px) {
+@media screen and (min-width: 1149px) {
   .header {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -2289,7 +2291,7 @@ input[type='checkbox'] {
   }
 }
 
-@media screen and (min-width: 1102px) {
+@media screen and (min-width: 1149px) {
   .header__heading-link {
     margin-left: -0.75rem;
   }
@@ -2399,7 +2401,7 @@ menu-drawer + .header__search {
   display: inline-flex;
 }
 
-@media screen and (min-width: 1102px) {
+@media screen and (min-width: 1149px) {
   .header:not(.header--top-center) * > .header__search,
   .header--top-center > .header__search {
     display: inline-flex;
@@ -2551,7 +2553,7 @@ details[open] > .header__submenu {
   margin-left: 0;
 }
 
-@media screen and (min-width: 1102px) {
+@media screen and (min-width: 1149px) {
   .header__inline-menu {
     display: block;
   }
