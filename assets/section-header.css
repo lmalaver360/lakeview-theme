@@ -34,6 +34,22 @@
   padding: 1rem;
   font-family: var(--font-heading-family);
   letter-spacing: 1.3px;
-  font-size: 13px;
   text-transform: uppercase;
+
+}
+.lakeview-header-social{
+  background-color: white !important;
+  border-top: 1px solid #585858;
+  padding: 1rem !important;
+}
+.lakeview-header-social ul{
+  justify-content:space-around !important;
+}
+@media screen and (max-width: 1102px) {
+  .lakeview-header-nav-link{
+    justify-content: center;
+    margin-bottom: 2rem;
+  font-size: 13px !important;
+
+  }
 }
