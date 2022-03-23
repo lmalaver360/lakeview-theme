@@ -864,13 +864,22 @@
           }
         },
         "text": {
-          "label": "Title"
+          "label": "First title"
         },
         "button_label_1": {
           "label": "First button label"
         },
         "button_link_1": {
           "label": "First button link"
+        },
+        "text_2": {
+          "label": "Second title"
+        },
+        "button_label_2": {
+          "label": "Second button label"
+        },
+        "button_link_2": {
+          "label": "Second button link"
         }
       }
     },

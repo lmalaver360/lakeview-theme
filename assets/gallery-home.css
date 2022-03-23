@@ -34,10 +34,29 @@
 }
 .gallery__container-item--info a {
   color: white;
+  background-color: none;
 }
 .gallery__container-item--info a::after {
   background-color: white;
+    --border-opacity: 0;
 }
 .gallery__container.invert {
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 950px) {
+  .gallery__container {
+    flex-direction: column;
+  }
+  .gallery__container-item:nth-child(1) {
+    width: 100% !important;
+    height: 49%;
+  }
+  .gallery__container-item:nth-child(2) {
+    width: 100% !important;
+    height: 49%;
+  }
+  .gallery__container.invert {
+    flex-direction: column-reverse !important;
+  }
 }
