@@ -25,7 +25,7 @@
       {%- endif -%}
       <div class="gallery__container-item--info">
         <p class="heading">{{ section.settings.text | escape }}</p>
-        <a role="link" aria-disabled="true" href="{{ section.settings.button_link_1 }}" class="button button--secondary">{{ section.settings.button_label_1 }}</a>
+        <a {% if  section.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{  section.settings.button_link_1 }}"{% endif %} class="button button--secondary">{{ section.settings.button_label_1 }}</a>
       </div>
     </div>
     <div class="gallery__container-item">
@@ -48,7 +48,7 @@
       />
       <div class="gallery__container-item--info">
         <p class="heading">{{ section.settings.text_2 | escape }}</p>
-        <a role="link" aria-disabled="true" href="{{ section.settings.button_link_2 }}" class="button button--secondary">{{ section.settings.button_label_2 }}</a>
+        <a {% if  section.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{  section.settings.button_link_2 }}"{% endif %} class="button button--secondary">{{ section.settings.button_label_2 }}</a>
 
       </div>
     </div>
