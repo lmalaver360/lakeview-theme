@@ -1,17 +1,5 @@
 {
   "sections": {
-    "gallery_home": {
-      "type": "gallery-home",
-      "settings": {
-        "position": "default"
-      }
-    },
-    "gallery_home_2": {
-      "type": "gallery-home",
-      "settings": {
-        "position": "invert"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -34,7 +22,10 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/comfortable-living-room-cat.jpg",
         "image_overlay_opacity": 20,
@@ -53,10 +44,28 @@
       "type": "gallery-home",
       "settings": {
         "image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
+        "image_2": "shopify:\/\/shop_images\/hand-holds-up-a-two-scoop-ice-cream-cone.jpg",
         "position": "default",
         "text": "NEW",
         "button_label_1": "SHOP NOW",
-        "button_link_1": "shopify:\/\/collections\/all"
+        "button_link_1": "shopify:\/\/collections\/all",
+        "text_2": "BEDDING",
+        "button_label_2": "SHOP NOW",
+        "button_link_2": "shopify:\/\/collections\/all"
+      }
+    },
+    "gallery_home_2": {
+      "type": "gallery-home",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/people-looking-at-light-beams-from-the-walls.jpg",
+        "image_2": "shopify:\/\/shop_images\/autumn-trees-hillside.jpg",
+        "position": "invert",
+        "text": "ART",
+        "button_label_1": "SHOP NOW",
+        "button_link_1": "shopify:\/\/collections\/all",
+        "text_2": "DÉCOR",
+        "button_label_2": "SHOP NOW",
+        "button_link_2": "shopify:\/\/collections\/all"
       }
     },
     "rich_text": {
@@ -72,11 +81,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -133,7 +145,11 @@
           }
         }
       },
-      "block_order": ["collection-0", "product", "collection-1"],
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -164,7 +180,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -173,7 +189,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -182,13 +198,17 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": ["column1", "column2", "column3"],
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
