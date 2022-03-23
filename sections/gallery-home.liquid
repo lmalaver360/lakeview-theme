@@ -1,7 +1,7 @@
 {{ 'gallery-home.css' | asset_url | stylesheet_tag }}
 
 <div class="gallery" id="gallery-{{ section.id }}">
-  <div class="gallery__container">
+  <div class="gallery__container {{ section.settings.position }}">
     <div class="gallery__container-item">
       {%- if section.settings.image != blank -%}
       <img 
@@ -40,7 +40,7 @@
 
 {%schema%}
 {
-  "name": "t:sections.gallery-home",
+  "name": "t:sections.gallery-home.name",
   "tag": "section",
   "class" : "section",
   "settings": [
@@ -48,7 +48,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.gallery-home.settings.image.label"
-
     },
     {
       "type": "select",

@@ -845,6 +845,26 @@
         }
       }
     },
+    "gallery-home": {
+      "name": "Gallery home",
+      "settings": {
+        "image": {
+          "label": "First image"
+        },
+        "position": {
+          "label": "Position",
+          "options__1": {
+            "label": "default"
+          },
+          "options__2": {
+            "label": "invert"
+          }
+        },
+        "text": {
+          "name": "Title"
+        }
+      }
+    },
     "header": {
       "name": "Header",
       "settings": {
