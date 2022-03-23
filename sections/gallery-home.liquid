@@ -25,7 +25,7 @@
       {%- endif -%}
       <div class="gallery__container-item--info">
         <p class="heading">{{ section.settings.text | escape }}</p>
-        <a href="" class="btn-link">SHOP NOW</a>
+        <a role="link" aria-disabled="true" href="{{ section.settings.button_link_1 }}" class="button button--secondary">{{ section.settings.button_label_1 }}</a>
       </div>
     </div>
     <div class="gallery__container-item">
@@ -33,6 +33,7 @@
       <div class="gallery__container-item--info">
         <p class="heading">BEDDING</p>
         <a href="" class="btn-link">SHOP NOW</a>
+
       </div>
     </div>
   </div>
@@ -48,6 +49,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.gallery-home.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "t:sections.gallery-home.settings.image_2.label"
     },
     {
       "type": "select",
@@ -70,7 +76,17 @@
       "id": "text",
       "default": "NEW",
       "label": "t:sections.gallery-home.settings.text.label"
-        
+    },
+    {
+      "type": "text",
+      "id": "button_label_1",
+      "default": "SHOP NOW",
+      "label": "t:sections.gallery-home.settings.button_label_1.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link_1",
+      "label": "t:sections.gallery-home.settings.button_link_1.label"
     }
   ]
 }

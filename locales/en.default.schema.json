@@ -851,6 +851,9 @@
         "image": {
           "label": "First image"
         },
+        "image_2": {
+          "label": "Second image"
+        },
         "position": {
           "label": "Position",
           "options__1": {
@@ -861,7 +864,13 @@
           }
         },
         "text": {
-          "name": "Title"
+          "label": "Title"
+        },
+        "button_label_1": {
+          "label": "First button label"
+        },
+        "button_link_1": {
+          "label": "First button link"
         }
       }
     },
