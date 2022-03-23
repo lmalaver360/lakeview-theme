@@ -1,5 +1,13 @@
 {
   "sections": {
+    "gallery_home": {
+      "type": "gallery-home",
+      
+      
+      "settings": {
+        "position": "default"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -202,6 +210,7 @@
   },
   "order": [
     "image_banner",
+    "gallery_home",
     "rich_text",
     "featured_collection",
     "collage",
