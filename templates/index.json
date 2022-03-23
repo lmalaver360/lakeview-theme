@@ -1,13 +1,5 @@
 {
   "sections": {
-    "gallery_home": {
-      "type": "gallery-home",
-      
-      
-      "settings": {
-        "position": "default"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -46,6 +38,14 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "gallery_home": {
+      "type": "gallery-home",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
+        "position": "default",
+        "text": "NEW"
       }
     },
     "rich_text": {
