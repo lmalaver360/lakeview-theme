@@ -45,7 +45,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
         "position": "default",
-        "text": "NEW"
+        "text": "NEW",
+        "button_label_1": "SHOP NOW",
+        "button_link_1": "shopify:\/\/collections\/all"
       }
     },
     "rich_text": {
