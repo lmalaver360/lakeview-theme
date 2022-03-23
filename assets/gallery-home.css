@@ -34,7 +34,7 @@
 }
 .gallery__container-item--info a {
   color: white;
-  background-color: none;
+  background-color: transparent !important;
 }
 .gallery__container-item--info a::after {
   background-color: white;
