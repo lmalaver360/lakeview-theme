@@ -68,24 +68,38 @@
         "button_link_2": "shopify:\/\/collections\/all"
       }
     },
-    "card_featured":{
+    "card_featured": {
       "type": "card-featured",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "FEATURED<br>ITEM"
+            "heading": "FEATURED<br>ITEMS"
+          }
+        },
+        "d10818ea-46e4-4fa2-b1f4-f2b6cffd014c": {
+          "type": "text",
+          "settings": {
+            "text": "Check out our new arrivals for fall 2022"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/all"
+            "button_link_1": "shopify:\/\/collections\/all"
           }
         }
       },
-      "block_order": ["heading", "button"]
+      "block_order": [
+        "heading",
+        "d10818ea-46e4-4fa2-b1f4-f2b6cffd014c",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/two-red-cocktails-on-a-tray.jpg",
+        "image_2": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg"
+      }
     },
     "rich_text": {
       "type": "rich-text",
