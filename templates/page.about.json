@@ -94,7 +94,7 @@
         "title": "",
         "heading_size": "h1",
         "subtitle": "",
-        "full_width": false,
+        "full_width": true,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,

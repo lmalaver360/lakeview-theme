@@ -88,7 +88,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                  <h3 class="{{ block.settings.heading_block_size }}">{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte text">{{ block.settings.text }}</div>
@@ -378,6 +378,30 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_block_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.multicolumn.blocks.heading_block_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.multicolumn.blocks.heading_block_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.multicolumn.blocks.heading_block_size.options__3.label"
+            },
+            {
+              "value": "",
+              "label": "t:sections.multicolumn.blocks.heading_block_size.options__4.label"
+            }
+          ],
+          "default": "",
+          "label": "t:sections.multicolumn.blocks.heading_block_size.label"
         },
         {
           "type": "richtext",
