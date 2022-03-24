@@ -314,8 +314,7 @@
 }
 .card-featured__images-item {
   height:clamp(275px, 29vw, 340px);
-  max-width: clamp(345px, 29vw, 400px);
-  width: 100%;
+  width: clamp(275px, 29vw, 400px);
   margin: 0 10px;
 }
 .card-featured__images-item img {
@@ -345,8 +344,8 @@
     margin: 0;
   }
   .card-featured__images-item{
-    height: auto !important;
+    height: clamp(150px, 36vw, 340px);;
     margin: 0 5px !important;
-    max-width: 400px;
+    width: clamp(140px, 43vw, 400px);
   }
 }
