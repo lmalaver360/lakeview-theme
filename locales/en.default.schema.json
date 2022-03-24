@@ -1982,6 +1982,18 @@
             "label": "Center"
           }
         },
+        "align_items":{
+          "label": "Align items",
+          "options__1": {
+            "label": "Start"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "End"
+          }
+        },
         "background_style": {
           "label": "Secondary background",
           "options__1": {
