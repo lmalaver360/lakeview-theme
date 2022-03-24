@@ -144,11 +144,19 @@
               "heading": "RESOURCES",
               "menu": "footer-resources"
             }
+          },
+          "6f5c4cd5-e7dd-4b23-8174-1eabac94af7f": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p><a href=\"\/pages\/contact\" title=\"Contact\">TERMS & CONDITIONS<\/a><br\/><a href=\"\/pages\/contact\" title=\"Contact\">PRIVACY POLICY<\/a><\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "d5d62b93-ce30-4c98-98e0-a7208e0eb9fa"
+          "d5d62b93-ce30-4c98-98e0-a7208e0eb9fa",
+          "6f5c4cd5-e7dd-4b23-8174-1eabac94af7f"
         ],
         "settings": {
           "color_scheme": "background-1",
