@@ -131,32 +131,24 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "86fbbd92-abdf-4a8b-86c9-9036dbd21327": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "OUR COMPANY",
               "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "86fbbd92-abdf-4a8b-86c9-9036dbd21327",
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
