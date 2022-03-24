@@ -2043,21 +2043,6 @@
             },
             "link": {
               "label": "Link"
-            },
-            "heading_size": {
-              "label": "Title size",
-              "options__1": {
-                "label": "Small"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Large"
-              },
-              "options__4": {
-                "label": "Default"
-              }
             }
           }
         }
