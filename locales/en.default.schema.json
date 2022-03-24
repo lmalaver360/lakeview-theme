@@ -2044,7 +2044,7 @@
             "link": {
               "label": "Link"
             },
-            "heading_block_size": {
+            "heading_size": {
               "label": "Title size",
               "options__1": {
                 "label": "Small"
