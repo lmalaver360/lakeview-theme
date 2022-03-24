@@ -131,24 +131,24 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "86fbbd92-abdf-4a8b-86c9-9036dbd21327": {
-            "type": "image",
-            "settings": {
-              "image_width": 100,
-              "alignment": "center"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "OUR COMPANY",
               "menu": "footer"
             }
+          },
+          "d5d62b93-ce30-4c98-98e0-a7208e0eb9fa": {
+            "type": "link_list",
+            "settings": {
+              "heading": "RESOURCES",
+              "menu": "footer-resources"
+            }
           }
         },
         "block_order": [
-          "86fbbd92-abdf-4a8b-86c9-9036dbd21327",
-          "footer-0"
+          "footer-0",
+          "d5d62b93-ce30-4c98-98e0-a7208e0eb9fa"
         ],
         "settings": {
           "color_scheme": "background-1",
