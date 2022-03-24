@@ -805,9 +805,12 @@
         "newsletter_heading": {
           "label": "Heading"
         },
+        "image": {
+          "label": "Logo"
+        },
         "header__1": {
           "content": "Email Signup",
-          "info": "Subscribers added automatically to your “accepted marketing” customer list. [Learn more](https:\/\/help.shopify.com\/en\/manual\/customers\/manage-customers)"
+          "info": "Subscribers added automatically to your “accepted marketing” customer list. [Learn more](https://help.shopify.com/en/manual/customers/manage-customers)"
         },
         "header__2": {
           "content": "Social media icons",
@@ -817,19 +820,19 @@
           "label": "Show social media icons"
         },
         "header__3": {
-          "content": "Country\/region selector"
+          "content": "Country/region selector"
         },
         "header__4": {
-          "info": "To add a country\/region, go to your [payment settings.](\/admin\/settings\/payments)"
+          "info": "To add a country/region, go to your [payment settings.](/admin/settings/payments)"
         },
         "enable_country_selector": {
-          "label": "Enable country\/region selector"
+          "label": "Enable country/region selector"
         },
         "header__5": {
           "content": "Language selector"
         },
         "header__6": {
-          "info": "To add a language, go to your [language settings.](\/admin\/settings\/languages)"
+          "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
         },
         "enable_language_selector": {
           "label": "Enable language selector"
