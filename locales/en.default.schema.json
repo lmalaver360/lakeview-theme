@@ -883,6 +883,49 @@
         }
       }
     },
+    "card-featured": {
+      "name": "Card featured",
+      "settings": {
+        "image": {
+          "label": "First image"
+        },
+        "image_2": {
+          "label": "Second image"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Title"
+            },
+            "text": {
+              "name": "Text",
+              "settings": {
+                "text": {
+                  "label": "Description"
+                }
+              }
+            },
+            "buttons": {
+              "name": "Buttons",
+              "settings": {
+                "button_label_1": {
+                  "label": "Button label"
+                },
+                "button_link_1": {
+                  "label": "Button link"
+                }
+              }
+            },
+            "presets": {
+              "name": "Card featured"
+            }
+          }
+        }
+      }
+    },
     "header": {
       "name": "Header",
       "settings": {

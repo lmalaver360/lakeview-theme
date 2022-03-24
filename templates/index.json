@@ -68,6 +68,25 @@
         "button_link_2": "shopify:\/\/collections\/all"
       }
     },
+    "card_featured":{
+      "type": "card-featured",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "FEATURED<br>ITEM"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": ["heading", "button"]
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -222,6 +241,7 @@
     "image_banner",
     "gallery_home",
     "gallery_home_2",
+    "card_featured",
     "rich_text",
     "featured_collection",
     "collage",
