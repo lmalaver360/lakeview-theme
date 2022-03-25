@@ -3,6 +3,8 @@
   grid-template-columns: max-content 1fr;
   width: 90%;
   margin: 0 auto;
+  margin-top: clamp(1rem, 3vw, 5rem);
+  
 }
 
 .main-collection-grid{
