@@ -2,9 +2,9 @@
   font-size: clamp(40px, 4vw, 55px);
   letter-spacing: 5.3px;
   font-family: var(--font-heading-family);
-  line-height: 1;
+  line-height: 1 !important;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px !important;
 }
 .heading.medium {
   font-size: 17px;
