@@ -2043,6 +2043,12 @@
             },
             "link": {
               "label": "Link"
+            },
+            "padding_left": {
+              "label": "Padding left"
+            },
+            "padding_right": {
+              "label": "Padding right"
             }
           }
         }
