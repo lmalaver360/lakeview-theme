@@ -262,3 +262,12 @@
   margin-left: 0.8rem;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 989px){
+  .multicolumn-list__item{
+    padding: 0 !important;
+  }
+  .heading{
+    padding-top: 2rem;
+  }
+}
