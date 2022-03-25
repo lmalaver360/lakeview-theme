@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/abandoned-swimming-pool-next-to-highway.jpg",
+        "image": "shopify://shop_images/abandoned-swimming-pool-next-to-highway.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -22,7 +22,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
+            "image": "shopify://shop_images/fog-on-dark-waters-edge.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -35,16 +35,13 @@
           "settings": {
             "title": "ABOUT<br>LAKEVIEW",
             "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "column1",
-        "column2"
-      ],
+      "block_order": ["column1", "column2"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -73,7 +70,7 @@
           "settings": {
             "title": "OUR<br>STORY",
             "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             "link_label": "",
             "link": ""
           }
@@ -81,7 +78,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
+            "image": "shopify://shop_images/man-hiking-in-mountains.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -90,10 +87,7 @@
           }
         }
       },
-      "block_order": [
-        "column1",
-        "column2"
-      ],
+      "block_order": ["column1", "column2"],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -113,11 +107,37 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
-    "multicolumn_2"
+    "multicolumn_2",
+    "rich_text"
   ]
 }
