@@ -2711,6 +2711,12 @@ details-disclosure > details {
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
   word-break: break-word;
+
+  background: #ead3c4;
+  border-color: #ead3c4;
+  color: black;
+  text-transform: uppercase;
+  border-radius: inherit;
 }
 
 .gradient {

@@ -172,7 +172,10 @@ variant-selects {
 
 fieldset.product-form__input .form__label {
   margin-bottom: 0.2rem;
+  
+
 }
+
 
 .product-form__input input[type='radio'] {
   clip: rect(0, 0, 0, 0);
@@ -198,6 +201,10 @@ fieldset.product-form__input .form__label {
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+
+  border-radius: inherit;
+  text-transform: uppercase;
+
 }
 
 .product-form__input input[type='radio'] + label:before {
@@ -219,6 +226,7 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']:checked + label {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
+
 }
 
 @media screen and (forced-colors: active) {
@@ -436,6 +444,25 @@ a.product__text {
 
 .product-form__buttons {
   max-width: 44rem;
+}
+
+.product-form__buttons button{
+  text-transform: uppercase;
+  
+}
+
+.product-form__buttons .shopify-payment-button button {
+  background: #EAD3C4;
+  color: black;
+}
+
+.product-form__buttons .shopify-payment-button button::after {
+  content: none;
+}
+
+.product-form__buttons .shopify-payment-button button:hover{
+  background: #EAD3C4;
+  
 }
 
 .product--no-media .product__info-container > modal-opener {
