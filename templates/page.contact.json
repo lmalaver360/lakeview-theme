@@ -11,6 +11,7 @@
             "heading_size": "h2",
             "text": "",
             "link_label": "",
+            "description_textarea": "",
             "link": "",
             "padding_left": 0,
             "padding_right": 0
@@ -21,8 +22,9 @@
           "settings": {
             "title": "CONTACT",
             "heading_size": "h0",
-            "text": "<p>LOCATION<\/p><p>1535 13Th Ave. Miami, Fl 31330<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\">DIRECTIONS<\/a><\/p><p><\/p><p>CONTACT<\/p><p>info@lakeviewhomeaccessories.com<br\/>+786.200.1428<\/p><p><\/p><p>STORE HOURS<\/p><p>Mon - Sat: 10:00am - 6:00pm <\/p><p>Sun: 10:00am - 5:00pm<\/p>",
+            "text": "",
             "link_label": "",
+            "description_textarea": "LOCATION<br>\n1535 13Th Ave. Miami, Fl 31330<br>\n<a href=\"#\">DIRECTIONS<\/a><br>\nCONTACT<br>\ninfo@lakeviewhomeaccessories.com<br>\n+786.200.1428<br>\nSTORE HOURS<br>\nMon - Sat: 10:00am - 6:00pm <br>Sun: 10:00am - 5:00pm",
             "link": "",
             "padding_left": 100,
             "padding_right": 0
