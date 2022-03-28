@@ -6,7 +6,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/tattood-man-using-creative-technology.jpg",
+            "image": "shopify:\/\/shop_images\/designer-at-desk.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -20,18 +20,21 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "CONTACT",
+            "title": "WORK<br>WITH US",
             "heading_size": "h0",
             "text": "",
             "link_label": "",
-            "description_textarea": "<p>LOCATION\n1535 13Th Ave. Miami, Fl 31330\n<a href=\"#\">DIRECTIONS</a><br>\nCONTACT\ninfo@lakeviewhomeaccessories.com\n+786.200.1428<br>\nSTORE HOURS\nMon - Sat: 10:00am - 6:00pm <br>Sun: 10:00am - 5:00pm\n</p>",
+            "description_textarea": "<p>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.\n\nEMAIL\n<a href=\"#\">Info@Lakeviewhomeaccessories.Com<\/a>\n<\/p>",
             "link": "",
             "padding_left": 100,
             "padding_right": 0
           }
         }
       },
-      "block_order": ["column1", "column2"],
+      "block_order": [
+        "column1",
+        "column2"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -53,5 +56,7 @@
       }
     }
   },
-  "order": ["multicolumn"]
+  "order": [
+    "multicolumn"
+  ]
 }
