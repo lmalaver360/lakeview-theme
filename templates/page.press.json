@@ -1,5 +1,26 @@
 {
   "sections": {
+    "1648493552454f04c4": {
+      "type": "rich-text",
+      "blocks": {
+        "16484935527cb223d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRESS",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "16484935527cb223d0-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 16
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -118,6 +139,7 @@
     }
   },
   "order": [
+    "1648493552454f04c4",
     "multicolumn"
   ]
 }
