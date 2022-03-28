@@ -136,7 +136,7 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p><a href=\"\/pages\/contact\" title=\"Contact\">TERMS & CONDITIONS<\/a><br\/><a href=\"\/pages\/contact\" title=\"Contact\">PRIVACY POLICY<\/a><\/p>"
+              "subtext": "<p><a href=\"\/pages\/terms\" title=\"Terms\">TERMS & CONDITIONS<\/a><br\/><a href=\"\/pages\/privacy-policy\" title=\"Privacy policy\">PRIVACY POLICY<\/a><\/p>"
             }
           }
         },
