@@ -6,7 +6,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fog-on-dark-waters-edge.jpg",
+            "image": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -19,9 +19,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "ABOUT<br>LAKEVIEW",
+            "title": "CONTACT",
             "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "text": "<p>LOCATION<\/p><p>1535 13Th Ave. Miami, Fl 31330<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\">DIRECTIONS<\/a><\/p><p><\/p><p>CONTACT<\/p><p>info@lakeviewhomeaccessories.com<br\/>+786.200.1428<\/p><p><\/p><p>STORE HOURS<\/p><p>Mon - Sat: 10:00am - 6:00pm <\/p><p>Sun: 10:00am - 5:00pm<\/p>",
             "link_label": "",
             "link": "",
             "padding_left": 100,
@@ -29,7 +29,10 @@
           }
         }
       },
-      "block_order": ["column1", "column2"],
+      "block_order": [
+        "column1",
+        "column2"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
