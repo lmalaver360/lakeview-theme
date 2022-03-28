@@ -62,11 +62,12 @@
         "d6f5dd5c-3521-4ce5-8ad6-d766cd6262d0": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/the-man-in-the-hat.jpg",
+            "title": "",
             "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "description_textarea": "",
+            "text": "",
+            "link_label": "GET THE STORY",
+            "description_textarea": "<h3>LOREM IPSUM GALOR<\/h3>",
             "link": "",
             "padding_left": 0,
             "padding_right": 0
@@ -75,11 +76,12 @@
         "543205f3-0e5f-4d0a-bda3-5ae8cd48f332": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/people-looking-at-light-beams-from-the-walls.jpg",
+            "title": "",
             "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "description_textarea": "",
+            "text": "",
+            "link_label": "GET THE STORY",
+            "description_textarea": "<h3>LOREM IPSUM GALOR<\/h3>",
             "link": "",
             "padding_left": 0,
             "padding_right": 0
