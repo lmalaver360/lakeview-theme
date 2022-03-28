@@ -1,25 +1,57 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/fog-on-dark-waters-edge.jpg",
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "ABOUT<br>LAKEVIEW",
+            "heading_size": "h0",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "link_label": "",
+            "link": "",
+            "padding_left": 100,
+            "padding_right": 0
+          }
+        }
+      },
+      "block_order": ["column1", "column2"],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
+        "title": "",
         "heading_size": "h1",
+        "subtitle": "",
+        "full_width": true,
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "align_items": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 44
       }
     }
   },
   "order": [
-    "main",
-    "form"
+    "multicolumn"
   ]
 }
