@@ -35,6 +35,10 @@ p.text.extraSmall,
   letter-spacing: 1.3px;
 }
 
+.text a{
+  color: inherit;
+}
+
 
 
 
