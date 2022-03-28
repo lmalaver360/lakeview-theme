@@ -2038,6 +2038,9 @@
             "text": {
               "label": "Description"
             },
+            "description_textarea": {
+              "label": "Description textarea"
+            },
             "link_label": {
               "label": "Link label"
             },

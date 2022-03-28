@@ -96,6 +96,8 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte text">{{ block.settings.text }}</div>
+                  {%else%}
+                  <div class="text">{{ block.settings.description_textarea }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a class="link animate-arrow" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
@@ -413,6 +415,11 @@
           "type": "text",
           "id": "link_label",
           "label": "t:sections.multicolumn.blocks.column.settings.link_label.label"
+        },
+        {
+          "type": "textarea",
+          "id": "description_textarea",
+          "label": "t:sections.multicolumn.blocks.column.settings.description_textarea.label"
         },
         {
           "type": "url",
