@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/abandoned-swimming-pool-next-to-highway.jpg",
+        "image": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -19,10 +19,22 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "OUR STORE",
+            "heading_size": "h0",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "link_label": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 100
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/fog-on-dark-waters-edge.jpg",
+            "image": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -31,21 +43,12 @@
             "padding_left": 0,
             "padding_right": 0
           }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "ABOUT<br>LAKEVIEW",
-            "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-            "link_label": "",
-            "link": "",
-            "padding_left": 100,
-            "padding_right": 0
-          }
         }
       },
-      "block_order": ["column1", "column2"],
+      "block_order": [
+        "column2",
+        "column1"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -63,7 +66,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 72,
-        "padding_bottom": 44
+        "padding_bottom": 72
       }
     },
     "rich_text": {
@@ -79,11 +82,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"/collections/frontpage\" target=\"_blank\" title=\"Bedding\">1535 13TH AVE. MIAMI, FL 31330</a></p>"
+            "text": "<p><a href=\"\/collections\/frontpage\" target=\"_blank\" title=\"Bedding\"><strong>1535 13TH AVE. MIAMI, FL 31330<\/strong><\/a><\/p>"
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
       "settings": {
         "color_scheme": "accent-2",
         "full_width": true,
@@ -92,5 +98,9 @@
       }
     }
   },
-  "order": ["image_banner", "multicolumn", "rich_text"]
+  "order": [
+    "image_banner",
+    "multicolumn",
+    "rich_text"
+  ]
 }
