@@ -1,13 +1,6 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "16485617750f9918d6": {
+    "collapsible": {
       "type": "collapsible-content",
       "blocks": {
         "1648561775c07829af-0": {
@@ -70,7 +63,6 @@
     }
   },
   "order": [
-    "main",
-    "16485617750f9918d6"
+    "collapsible"
   ]
 }

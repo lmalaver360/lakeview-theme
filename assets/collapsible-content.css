@@ -43,7 +43,8 @@
   margin: 0 auto;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 73.4rem;
+  max-width: 100%;
+  padding: 0;
 }
 
 .collapsible-content__header {
@@ -57,7 +58,7 @@
 
 @media screen and (min-width: 750px) {
   .collapsible-content__heading {
-    margin-bottom: 3rem;
+    margin-bottom: 8rem !important;
   }
 }
 
@@ -90,12 +91,12 @@
 }
 
 .collapsible-content summary:hover {
-  background: rgba(var(--color-foreground), 0.04);
+  /*background: rgba(var(--color-foreground), 0.04);*/
 }
 
 .collapsible-content summary:hover .accordion__title {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+ /* text-decoration: underline;
+  text-underline-offset: 0.3rem;*/
 }
 
 /* check for flexbox gap in older Safari versions */
