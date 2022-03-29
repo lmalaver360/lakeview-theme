@@ -860,6 +860,9 @@
         "button_link": {
           "label": "Link"
         }
+      },
+      "presets": {
+        "name": "Instagram block"
       }
     },
     "gallery-home": {
@@ -941,6 +944,9 @@
         "presets": {
           "name": "Card featured"
         }
+      },
+      "presets": {
+        "name": "Card featured"
       }
     },
     "header": {
