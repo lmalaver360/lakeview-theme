@@ -28,13 +28,13 @@
 .instagramBlock__images {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
   padding: 3rem 0;
 }
 
 .instagramBlock__images-item {
-  height: 340px;
+  height: clamp(170px, 20vw, 340px);
 }
 .instagramBlock__images-item img {
   height: auto;
