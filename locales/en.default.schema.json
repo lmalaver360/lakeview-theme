@@ -1951,9 +1951,6 @@
         "title": {
           "label": "Heading"
         },
-        "subtitle": {
-          "label": "Subtitle"
-        },
         "full_width": {
           "label": "Make section full width"
         },
