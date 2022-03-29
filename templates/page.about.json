@@ -54,7 +54,6 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "subtitle": "",
         "full_width": true,
         "image_width": "full",
         "image_ratio": "square",
@@ -109,7 +108,6 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "subtitle": "",
         "full_width": true,
         "image_width": "full",
         "image_ratio": "square",
@@ -131,7 +129,9 @@
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
         "button_label": "@instagram",
-        "button_link": ""
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 72
       }
     },
     "rich_text": {
