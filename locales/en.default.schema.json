@@ -851,9 +851,15 @@
     "instagram": {
       "name": "Instagram",
       "settings": {
-        "title": "Heading",
-        "button_label": "Label link",
-        "button_link": "Link"
+        "title": {
+          "label": "Heading"
+        },
+        "button_label": {
+          "label": "Label link"
+        },
+        "button_link": {
+          "label": "Link"
+        } 
       }
     },
     "gallery-home": {
