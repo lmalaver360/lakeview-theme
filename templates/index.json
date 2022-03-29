@@ -169,8 +169,7 @@
       ],
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
-        "heading_size": "h1",
-        "subtitle": "<p>NOTE:<a href=\"https:\/\/instagram.com\" target=\"_blank\" title=\"https:\/\/instagram.com\"> @LAKEVIEWHOME<\/a><\/p>",
+        "heading_size": "h2",
         "full_width": true,
         "image_width": "full",
         "image_ratio": "square",
