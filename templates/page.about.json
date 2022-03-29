@@ -122,6 +122,9 @@
         "padding_bottom": 36
       }
     },
+    "instagram": {
+      "type": "instagram"
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -155,6 +158,7 @@
     "image_banner",
     "multicolumn",
     "multicolumn_2",
+    "instagram",
     "rich_text"
   ]
 }

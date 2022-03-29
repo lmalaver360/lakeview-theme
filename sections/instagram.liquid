@@ -1,0 +1,51 @@
+{{ "instagram.css" | asset_url | stylesheet_tag }}
+
+<div class="instagramBlock">
+  <div class="instagramBlock__title">
+    <h3 class="heading">{{ section.settings.title }}</h3>
+    {% if section.settings.button_link != blank%}
+    <a href="{{ section.settings.button_link }}" class="btn-link">{{ section.settings.button_label }}</a>
+    {%- endif -%}
+  </div>
+  <div class="instagramBlock__images">
+    <div class="instagramBlock__images-item">
+      <img src="https://placeimg.com/300/340/arch" />
+    </div>
+    <div class="instagramBlock__images-item">
+      <img src="https://placeimg.com/400/240/nature" />
+    </div>
+    <div class="instagramBlock__images-item">
+      <img src="https://placeimg.com/400/440/animals" />
+    </div>
+    <div class="instagramBlock__images-item">
+      <img src="https://placeimg.com/400/540/tech" />
+    </div>
+  </div>
+</div>
+
+{%schema%}
+{
+  "name": "t:sections.instagram.name",
+  "tag": "section",
+  "class": "section",
+  "settings":[
+    {
+      "type": "text",
+      "id": "title",
+      "default": "title",
+      "label": "t:sections.instagram.settings.title.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "@instagram",
+      "label": "t:sections.instagram.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.instagram.settings.button_link.label"
+    }
+  ]
+}
+{% endschema %}

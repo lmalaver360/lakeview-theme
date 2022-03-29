@@ -1,0 +1,42 @@
+.instagramBlock {
+  width: 90%;
+  margin: 0 auto;
+}
+.instagramBlock__title {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.instagramBlock__title .heading {
+  font-size: clamp(20px, 5vw, 25px);
+  letter-spacing: 2.5px;
+  margin: 0;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+.instagramBlock__title .btn-link {
+  color: red;
+  margin: 0;
+  grid-column: 3 / 4;
+  font-size: 16px;
+}
+.instagramBlock__title .btn-link::after {
+  content: none;
+}
+.instagramBlock__images {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 3rem 0;
+}
+.instagramBlock__images-item {
+  height: 340px;
+}
+.instagramBlock__images-item img {
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

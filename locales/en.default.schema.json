@@ -848,6 +848,14 @@
         }
       }
     },
+    "instagram": {
+      "name": "Instagram",
+      "settings": {
+        "title": "Heading",
+        "button_label": "Label link",
+        "button_link": "Link"
+      }
+    },
     "gallery-home": {
       "name": "Gallery home",
       "settings": {
