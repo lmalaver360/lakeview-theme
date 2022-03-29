@@ -101,89 +101,12 @@
         "image_2": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg"
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/business-pug-working-on-laptop.jpg",
-            "title": "",
-            "heading_size": "h2",
-            "text": "",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 0,
-            "padding_right": 0
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/organized-workspace.jpg",
-            "title": "",
-            "heading_size": "h2",
-            "text": "",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 0,
-            "padding_right": 0
-          }
-        },
-        "26876978-09c4-42fb-bc49-7f88be228c93": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
-            "title": "",
-            "heading_size": "h2",
-            "text": "",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 0,
-            "padding_right": 0
-          }
-        },
-        "06726626-36fc-488d-9f74-dddd027c634f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg",
-            "title": "",
-            "heading_size": "h2",
-            "text": "",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 0,
-            "padding_right": 0
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "26876978-09c4-42fb-bc49-7f88be228c93",
-        "06726626-36fc-488d-9f74-dddd027c634f"
-      ],
+    "1648585734c485f58b": {
+      "type": "instagram",
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
-        "heading_size": "h2",
-        "full_width": true,
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "align_items": "start",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "button_label": "NOTE: @LAKEVIEWHOME",
+        "button_link": "https:\/\/wwwinstagram.com\/lakeviewhome\/"
       }
     }
   },
@@ -192,6 +115,6 @@
     "gallery_home",
     "gallery_home_2",
     "card_featured",
-    "multicolumn"
+    "1648585734c485f58b"
   ]
 }
