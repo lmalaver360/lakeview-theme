@@ -9,7 +9,6 @@
 }
 
 .customer .heading{
-  text-align: center;
   margin: 2rem 0 4rem;
   font-size: 21px;
   letter-spacing: 2.1px;
@@ -727,7 +726,7 @@
     justify-content: space-around;
 }
 
-.addresses .addresses-edit-btns button.button-secondary::after{
+.addresses .addresses-edit-btns button.button--secondary::after{
   content: "";
 }
 .addresses .addresses li > button {
