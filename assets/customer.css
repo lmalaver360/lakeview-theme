@@ -727,10 +727,7 @@
     justify-content: space-around;
 }
 
-.addresses .addresses-edit-btns button{
-  background-color: white;
-}
-.addresses .addresses-edit-btns button::after{
+.addresses .addresses-edit-btns button.button-secondary::after{
   content: "";
 }
 .addresses .addresses li > button {
