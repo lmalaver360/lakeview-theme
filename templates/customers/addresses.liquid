@@ -110,7 +110,6 @@
           {{ address | format_address }}
           <div class="addresses-edit-btns">
             <button
-              class="button button--secondary"
               type="button"
               id="EditFormButton_{{ address.id }}"
               aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
@@ -121,7 +120,6 @@
               {{ 'customer.addresses.edit' | t }}
             </button>
             <button
-              class="button button--secondary"
               type="button"
               aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
               data-target="{{ address.url }}"
