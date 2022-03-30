@@ -718,7 +718,22 @@
 }
 
 /* Addresses */
-.addresses li > button {
+.addresses button.center{
+  margin: 4rem auto;
+}
+.addresses .addresses-edit-btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.addresses .addresses-edit-btns button{
+  background-color: white;
+}
+.addresses .addresses-edit-btns button::after{
+  content: "";
+}
+.addresses .addresses li > button {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
