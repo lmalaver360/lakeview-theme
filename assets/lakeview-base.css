@@ -39,6 +39,9 @@ p.text.extraSmall,
   color: inherit;
 }
 
+.text-uppercase{
+  text-transform: uppercase;
+}
 
 
 
