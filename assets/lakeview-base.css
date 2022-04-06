@@ -4,7 +4,7 @@
   font-family: var(--font-heading-family);
   line-height: 1 !important;
   margin: 0;
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 .heading.medium {
   font-size: 17px;
