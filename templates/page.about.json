@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/abandoned-swimming-pool-next-to-highway.jpg",
+        "image": "shopify:\/\/shop_images\/busy-hands-playing-with-white-dough.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -22,7 +22,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
+            "image": "shopify:\/\/shop_images\/people-looking-at-light-beams-from-the-walls.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -89,7 +89,7 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
+            "image": "shopify:\/\/shop_images\/orange-poles-create-a-tunnel.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
