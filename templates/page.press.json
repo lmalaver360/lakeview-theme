@@ -27,13 +27,13 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tattood-man-using-creative-technology.jpg",
+            "image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
             "link_label": "GET THE STORY",
             "description_textarea": "<h3>LOREM IPSUM GALOR<\/h3>",
-            "link": "shopify:\/\/blogs\/lorem-ipsum-galor-r\/lorem-ipsum-galor",
+            "link": "shopify:\/\/blogs\/news\/lorem-ipsum-galor",
             "padding_left": 0,
             "padding_right": 0
           }
@@ -55,7 +55,7 @@
         "cbafa191-f882-4e6d-9749-bf6c14141c42": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fall-leaf-cookies-in-the-kitchen.jpg",
+            "image": "shopify:\/\/shop_images\/person-carries-a-wooden-box-full-of-dough-balls.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -69,7 +69,7 @@
         "8bb8eaa4-93a3-4c74-a93d-599d710a8f58": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/friends-backpacking-together.jpg",
+            "image": "shopify:\/\/shop_images\/close-up-of-a-person-arm-wearing-a-smartwatch.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -83,7 +83,7 @@
         "d6f5dd5c-3521-4ce5-8ad6-d766cd6262d0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the-man-in-the-hat.jpg",
+            "image": "shopify:\/\/shop_images\/person-tilts-their-head-up-and-looks-at-the-camera.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -120,7 +120,6 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "subtitle": "",
         "full_width": true,
         "image_width": "full",
         "image_ratio": "portrait",

@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/fog-on-dark-waters-edge.jpg",
+        "image": "shopify:\/\/shop_images\/winding-road-covered-in-autumn-trees.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -26,6 +26,7 @@
             "heading_size": "h0",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
             "link_label": "",
+            "description_textarea": "",
             "link": "",
             "padding_left": 0,
             "padding_right": 100
@@ -34,11 +35,12 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg",
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
             "link_label": "",
+            "description_textarea": "",
             "link": "",
             "padding_left": 0,
             "padding_right": 0
@@ -52,7 +54,6 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "subtitle": "",
         "full_width": true,
         "image_width": "full",
         "image_ratio": "square",

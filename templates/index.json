@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/comfortable-living-room-cat.jpg",
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -43,8 +43,8 @@
     "gallery_home": {
       "type": "gallery-home",
       "settings": {
-        "image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
-        "image_2": "shopify:\/\/shop_images\/hand-holds-up-a-two-scoop-ice-cream-cone.jpg",
+        "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
+        "image_2": "shopify:\/\/shop_images\/person-in-red-raincoat-admires-a-huge-waterfall.jpg",
         "position": "default",
         "text": "NEW",
         "button_label_1": "SHOP NOW",
@@ -57,8 +57,8 @@
     "gallery_home_2": {
       "type": "gallery-home",
       "settings": {
-        "image": "shopify:\/\/shop_images\/people-looking-at-light-beams-from-the-walls.jpg",
-        "image_2": "shopify:\/\/shop_images\/autumn-trees-hillside.jpg",
+        "image": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
+        "image_2": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
         "position": "invert",
         "text": "ART",
         "button_label_1": "SHOP NOW",
@@ -97,8 +97,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/two-red-cocktails-on-a-tray.jpg",
-        "image_2": "shopify:\/\/shop_images\/creamy-cold-drink-sits-on-a-wooden-table.jpg"
+        "image": "shopify:\/\/shop_images\/white-bowl-surrounded-by-herbs-chilis-and-lime-slices.jpg",
+        "image_2": "shopify:\/\/shop_images\/hand-pours-a-green-liquid-into-a-glass-of-ice-and-milk.jpg"
       }
     },
     "1648585734c485f58b": {
@@ -106,7 +106,9 @@
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
         "button_label": "NOTE: @LAKEVIEWHOME",
-        "button_link": "https:\/\/wwwinstagram.com\/lakeviewhome\/"
+        "button_link": "https:\/\/www.instagram.com\/lakeviewhome\/",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },

@@ -6,7 +6,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tattood-man-using-creative-technology.jpg",
+            "image": "shopify:\/\/shop_images\/business-cat-in-office.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
@@ -38,7 +38,6 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "subtitle": "",
         "full_width": false,
         "image_width": "full",
         "image_ratio": "square",
