@@ -43,6 +43,8 @@
     "gallery_home": {
       "type": "gallery-home",
       "settings": {
+        "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
+        "image_2": "shopify:\/\/shop_images\/person-in-red-raincoat-admires-a-huge-waterfall.jpg",
         "position": "default",
         "text": "NEW",
         "button_label_1": "SHOP NOW",
@@ -55,6 +57,8 @@
     "gallery_home_2": {
       "type": "gallery-home",
       "settings": {
+        "image": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
+        "image_2": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
         "position": "invert",
         "text": "ART",
         "button_label_1": "SHOP NOW",
@@ -93,6 +97,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/white-bowl-surrounded-by-herbs-chilis-and-lime-slices.jpg",
+        "image_2": "shopify:\/\/shop_images\/hand-pours-a-green-liquid-into-a-glass-of-ice-and-milk.jpg"
       }
     },
     "1648585734c485f58b": {
