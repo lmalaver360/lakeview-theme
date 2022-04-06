@@ -147,6 +147,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
+          "image": "shopify:\/\/shop_images\/Lakeview_stamp.png",
           "newsletter_enable": true,
           "newsletter_heading": "JOIN OUR MAILING LIST",
           "show_social": true,
