@@ -19,6 +19,19 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "ABOUT US",
+            "heading_size": "h0",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 100
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
@@ -32,24 +45,11 @@
             "padding_left": 0,
             "padding_right": 0
           }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "ABOUT<br>LAKEVIEW",
-            "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 100,
-            "padding_right": 0
-          }
         }
       },
       "block_order": [
-        "column1",
-        "column2"
+        "column2",
+        "column1"
       ],
       "settings": {
         "title": "",
@@ -73,19 +73,6 @@
     "multicolumn_2": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "OUR<br>STORY",
-            "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-            "link_label": "",
-            "description_textarea": "",
-            "link": "",
-            "padding_left": 0,
-            "padding_right": 100
-          }
-        },
         "column2": {
           "type": "column",
           "settings": {
@@ -99,11 +86,24 @@
             "padding_left": 0,
             "padding_right": 0
           }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h0",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 100,
+            "padding_right": 0
+          }
         }
       },
       "block_order": [
-        "column1",
-        "column2"
+        "column2",
+        "column1"
       ],
       "settings": {
         "title": "",
