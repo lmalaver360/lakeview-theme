@@ -2526,6 +2526,12 @@ details[open] > .header__icon--menu .icon-hamburger {
 .js details > .header__submenu {
   opacity: 0;
   transform: translateY(-1.5rem);
+  width: 100%;
+  left: 0;
+  padding: 2rem 10rem;
+  border-color: black;
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 details[open] > .header__submenu {
@@ -2578,7 +2584,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  /*color: rgba(var(--color-foreground), 0.75);*/
 }
 
 .header__menu-item:hover {
@@ -2587,10 +2593,13 @@ details[open] > .header__submenu {
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
+  text-transform: uppercase;
+  font-family: var(--font-heading-family);
+  letter-spacing: 1.3px;
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   text-underline-offset: 0.3rem;
 }
 
@@ -2647,7 +2656,12 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu .header__menu-item {
   justify-content: space-between;
-  padding: 0.8rem 2.4rem;
+  /*padding: 0.8rem 2.4rem;*/
+  padding: 0.8rem 0;
+  display: block;
+}
+.header__submenu .header__menu-item:hover {
+  text-decoration: underline;
 }
 
 .header__submenu .header__submenu .header__menu-item {
@@ -2656,6 +2670,7 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__menu-item .icon-caret {
   right: 0.8rem;
+  display: none;
 }
 
 .header__submenu .icon-caret {
@@ -2666,7 +2681,7 @@ details[open] > .header__menu-item .icon-caret {
 
 header-menu > details,
 details-disclosure > details {
-  position: relative;
+ /* position: relative;*/
 }
 
 @keyframes animateMenuOpen {
@@ -2677,7 +2692,7 @@ details-disclosure > details {
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(2rem);
   }
 }
 
