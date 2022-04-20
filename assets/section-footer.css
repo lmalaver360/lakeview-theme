@@ -1,7 +1,3 @@
-.footer {
-  background-color: #F4EDE2;
-}
-
 .footer:not(.color-background-1) {
   border-top: none;
 }
