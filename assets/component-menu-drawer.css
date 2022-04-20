@@ -92,16 +92,19 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
   height: 100%;
+  background-color: #EAD3C4
 }
 
 .menu-drawer__navigation {
-  padding: 5.6rem 0;
+  padding: 5.6rem 1rem;
 }
 
 .menu-drawer__inner-submenu {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #EAD3C4
+
 }
 
 .no-js .menu-drawer__navigation {
@@ -117,13 +120,16 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .js .menu-drawer__menu li {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0;
+  
 }
 
 .menu-drawer__menu-item {
   padding: 1.1rem 3.2rem;
   text-decoration: none;
   font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .no-js .menu-drawer__menu-item {
@@ -199,6 +205,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   background-color: transparent;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
+  text-transform: uppercase;
 }
 
 .no-js .menu-drawer__close-button {
@@ -212,7 +219,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__utility-links {
   padding: 2rem;
-  background-color: rgba(var(--color-foreground), 0.03);
+  /*background-color: rgba(var(--color-foreground), 0.03);*/
 }
 
 .menu-drawer__account {
@@ -238,7 +245,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer .list-social {
   justify-content: flex-start;
   margin-left: -1.25rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .menu-drawer .list-social:empty {
