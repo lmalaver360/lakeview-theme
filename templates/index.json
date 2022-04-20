@@ -75,7 +75,7 @@
           "type": "heading",
           "settings": {
             "heading": "STEMWARE",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "1650484409eeb63c72-1": {
@@ -119,6 +119,7 @@
     },
     "card_featured": {
       "type": "card-featured",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
