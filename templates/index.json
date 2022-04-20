@@ -68,6 +68,55 @@
         "button_link_2": "shopify:\/\/collections\/all"
       }
     },
+    "1650484410b9c52eaf": {
+      "type": "image-banner",
+      "blocks": {
+        "1650484409eeb63c72-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "STEMWARE",
+            "heading_size": "h1"
+          }
+        },
+        "1650484409eeb63c72-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1650484409eeb63c72-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1650484409eeb63c72-0",
+        "1650484409eeb63c72-1",
+        "1650484409eeb63c72-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/city-sunset-smoke.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "card_featured": {
       "type": "card-featured",
       "blocks": {
@@ -116,6 +165,7 @@
     "image_banner",
     "gallery_home",
     "gallery_home_2",
+    "1650484410b9c52eaf",
     "card_featured",
     "1648585734c485f58b"
   ]
