@@ -3,47 +3,46 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/business-cat-in-office.jpg",
             "title": "",
             "heading_size": "h2",
             "text": "",
             "link_label": "",
-            "description_textarea": "",
+            "description_textarea": "<p>LOCATION\n1535 13Th Ave. Miami, Fl 31330\n<a href=\"#\">DIRECTIONS<\/a><br>\nCONTACT\ninfo@lakeviewhomeaccessories.com\n+786.200.1428<br>\n\n<\/p>",
             "link": "",
             "padding_left": 0,
             "padding_right": 0
           }
         },
-        "column2": {
+        "column1": {
           "type": "column",
           "settings": {
-            "title": "CONTACT",
-            "heading_size": "h0",
+            "title": "",
+            "heading_size": "h2",
             "text": "",
             "link_label": "",
-            "description_textarea": "<p>LOCATION\n1535 13Th Ave. Miami, Fl 31330\n<a href=\"#\">DIRECTIONS<\/a><br>\nCONTACT\ninfo@lakeviewhomeaccessories.com\n+786.200.1428<br>\nSTORE HOURS\nMon - Sat: 10:00am - 6:00pm <br>Sun: 10:00am - 5:00pm\n<\/p>",
+            "description_textarea": "<p>\nSTORE HOURS\nMon - Sat: 10:00am - 6:00pm <br>Sun: 10:00am - 5:00pm<br>\nWORK WITH US: SEND EMAILS TO\ninfo@lakeviewhomeaccessories.com\n<\/p>",
             "link": "",
-            "padding_left": 100,
+            "padding_left": 0,
             "padding_right": 0
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2"
+        "column2",
+        "column1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "CONTACT",
+        "heading_size": "h0",
         "full_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "align_items": "center",
+        "align_items": "start",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
