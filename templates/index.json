@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "FALL ARRIVAL",
+            "heading": "EXPLORE",
             "heading_size": "h0"
           }
         },
@@ -46,10 +46,10 @@
         "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
         "image_2": "shopify:\/\/shop_images\/person-in-red-raincoat-admires-a-huge-waterfall.jpg",
         "position": "default",
-        "text": "NEW",
+        "text": "BEDDING",
         "button_label_1": "SHOP NOW",
         "button_link_1": "shopify:\/\/collections\/all",
-        "text_2": "BEDDING",
+        "text_2": "GIFT",
         "button_label_2": "SHOP NOW",
         "button_link_2": "shopify:\/\/collections\/all"
       }
@@ -60,10 +60,10 @@
         "image": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
         "image_2": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
         "position": "invert",
-        "text": "ART",
+        "text": "TABLE",
         "button_label_1": "SHOP NOW",
         "button_link_1": "shopify:\/\/collections\/all",
-        "text_2": "DÉCOR",
+        "text_2": "LIGHTING",
         "button_label_2": "SHOP NOW",
         "button_link_2": "shopify:\/\/collections\/all"
       }
