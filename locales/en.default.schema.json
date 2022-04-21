@@ -1969,6 +1969,9 @@
         "full_width": {
           "label": "Make section full width"
         },
+        "medium_width": {
+          "label": "Make section medium width"
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {

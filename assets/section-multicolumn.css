@@ -1,9 +1,10 @@
 .multicolumn .title {
-  margin: 0;
+  margin-bottom: clamp(2rem, 10vw, 4rem);
 }
 
 .multicolumn .title.ta-center {
   text-align: center;
+  width: 100%;
 }
 .multicolumn .title.ta-left {
   text-align: left;
@@ -12,6 +13,18 @@
 .multicolumn .page-full{
   width: 90%;
   margin: 0 auto;
+}
+.multicolumn .page-medium{
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.multicolumn .page-medium:after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
 }
 
 .multicolumn.no-heading .title {
