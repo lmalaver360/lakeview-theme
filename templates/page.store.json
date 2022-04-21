@@ -53,8 +53,10 @@
       ],
       "settings": {
         "title": "",
+        "title_align": "ta-center",
         "heading_size": "h1",
         "full_width": true,
+        "medium_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,
@@ -92,7 +94,7 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 40
