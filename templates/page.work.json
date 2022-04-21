@@ -27,7 +27,7 @@
             "description_textarea": "<p>\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.\n\nEMAIL\n<a href=\"#\">Info@Lakeviewhomeaccessories.Com<\/a>\n<\/p>",
             "link": "",
             "padding_left": 100,
-            "padding_right": 0
+            "padding_right": 60
           }
         }
       },
@@ -37,8 +37,10 @@
       ],
       "settings": {
         "title": "",
+        "title_align": "ta-center",
         "heading_size": "h1",
         "full_width": false,
+        "medium_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,

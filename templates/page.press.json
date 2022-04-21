@@ -119,8 +119,10 @@
       ],
       "settings": {
         "title": "",
+        "title_align": "ta-center",
         "heading_size": "h1",
         "full_width": true,
+        "medium_width": false,
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 4,
