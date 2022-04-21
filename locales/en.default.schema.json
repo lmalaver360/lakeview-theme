@@ -1957,6 +1957,15 @@
         "title": {
           "label": "Heading"
         },
+        "title_align": {
+          "label": "Align title",
+          "options__1": {
+            "label": "Center"
+          },
+          "options__2": {
+            "label": "Left"
+          }
+        },
         "full_width": {
           "label": "Make section full width"
         },

@@ -1,6 +1,12 @@
 .multicolumn .title {
-  margin: 0 auto;
+  margin: 0;
+}
+
+.multicolumn .title.ta-center {
   text-align: center;
+}
+.multicolumn .title.ta-left {
+  text-align: left;
 }
 
 .multicolumn .page-full{

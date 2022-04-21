@@ -28,7 +28,7 @@
   <div class="{% if section.settings.full_width %}page-full{% else %}page-width{% endif %} section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title {{ section.settings.heading_size }}">
+        <h2 class="title heading {{ section.settings.heading_size }} {{ section.settings.title_align }}">
           {{ section.settings.title | escape }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -139,6 +139,22 @@
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "title_align",
+      "options": [
+        {
+          "value": "ta-center",
+          "label": "t:sections.multicolumn.settings.title_align.options__1.label"
+        },
+        {
+          "value": "ta-left",
+          "label": "t:sections.multicolumn.settings.title_align.options__2.label"
+        }
+      ],
+      "default": "ta-center",
+      "label": "t:sections.multicolumn.settings.title_align.label"
     },
     {
       "type": "select",
