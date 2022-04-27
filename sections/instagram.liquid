@@ -21,21 +21,27 @@
     <a href="{{ section.settings.button_link }}" class="btn-link">{{ section.settings.button_label }}</a>
     {%- endif -%}
   </div>
-  <div class="instagramBlock__images">
-    <div class="instagramBlock__images-item">
-      <img src="https://placeimg.com/300/340/arch" />
-    </div>
-    <div class="instagramBlock__images-item">
-      <img src="https://placeimg.com/400/240/nature" />
-    </div>
-    <div class="instagramBlock__images-item">
-      <img src="https://placeimg.com/400/440/animals" />
-    </div>
-    <div class="instagramBlock__images-item">
-      <img src="https://placeimg.com/400/540/tech" />
-    </div>
+  <div class="instagramBlock__images js-instagram-container">
   </div>
 </div>
+
+<script>
+  const container = document.querySelector(".js-instagram-container");
+  let token = "IGQVJWdGZAmMGcyQU1sSlJjZAzdpQVA3WWhuWjk3LVdDa3QzR2kxVkpTUVN0cmkzT0MwZAy1yRWoyYzBlT1o5WXJEdlE4MHNTWDdfMUo3TTdnRkFaU0paRU1jRC1zR1RUdGNwTE5VNm9FM05BbEQzb3ZAzZAwZDZD"
+  fetch(`https://graph.instagram.com/me/media?fields=caption,id,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${token}`)
+    .then((response) => response.json())
+    .then((data) => {
+      const images = data.data.filter((item, index) => index < 4);
+      images.map((item, index) =>{
+        let element = document.createElement("div");
+        element.classList.add("instagramBlock__images-item")
+        element.innerHTML = `
+          <img src=${item.media_url} />
+         `
+        container.appendChild(element)
+      })
+    })
+</script>
 
 {%schema%}
 {
