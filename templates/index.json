@@ -27,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "image": "shopify:\/\/shop_images\/mask.png",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -43,7 +43,7 @@
     "gallery_home": {
       "type": "gallery-home",
       "settings": {
-        "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
+        "image": "shopify:\/\/shop_images\/mask-1.png",
         "image_2": "shopify:\/\/shop_images\/person-in-red-raincoat-admires-a-huge-waterfall.jpg",
         "position": "default",
         "text": "BEDDING",
