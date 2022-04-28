@@ -124,7 +124,7 @@
         "full_width": true,
         "medium_width": false,
         "image_width": "full",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
         "align_items": "center",
