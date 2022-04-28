@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/busy-hands-playing-with-white-dough.jpg",
+        "image": "shopify:\/\/shop_images\/fornasetti.png",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -53,8 +53,10 @@
       ],
       "settings": {
         "title": "",
+        "title_align": "ta-center",
         "heading_size": "h1",
         "full_width": true,
+        "medium_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,
@@ -107,8 +109,10 @@
       ],
       "settings": {
         "title": "",
+        "title_align": "ta-center",
         "heading_size": "h1",
         "full_width": true,
+        "medium_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,
