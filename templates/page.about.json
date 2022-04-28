@@ -131,8 +131,8 @@
     "instagram": {
       "type": "instagram",
       "settings": {
-        "title": "FOLLOW US ON INSTAGRAM",
-        "button_label": "@instagram",
+        "title": "FOLLOW US ON INSTAGRAM @LAKEVIEWHOME",
+        "button_label": "",
         "button_link": "",
         "padding_top": 36,
         "padding_bottom": 72
