@@ -16,7 +16,7 @@
 
 <div class="instagramBlock section-{{ section.id }}-padding">
   <div class="instagramBlock__title">
-    <h3 class="heading">{{ section.settings.title }}</h3>
+    <h3 class="heading">{{ section.settings.title | newline_to_br }}</h3>
     {% if section.settings.button_link != blank%}
     <a href="{{ section.settings.button_link }}" class="btn-link">{{ section.settings.button_label }}</a>
     {%- endif -%}
