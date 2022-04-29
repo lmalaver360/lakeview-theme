@@ -154,9 +154,9 @@
     "1648585734c485f58b": {
       "type": "instagram",
       "settings": {
-        "title": "FOLLOW US ON INSTAGRAM",
+        "title": "FOLLOW US ON <a href=\"https:\/\/www.instagram.com\/lakeviewhome\/\">INSTAGRAM<\/a>",
         "button_label": "",
-        "button_link": "https:\/\/www.instagram.com\/lakeviewhome\/",
+        "button_link": "",
         "padding_top": 60,
         "padding_bottom": 36
       }
