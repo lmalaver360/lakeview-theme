@@ -106,7 +106,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/mask-3.png",
         "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
@@ -155,8 +155,6 @@
       "type": "instagram",
       "settings": {
         "title": "FOLLOW US ON <a href=\"https:\/\/www.instagram.com\/lakeviewhome\/\" target=\"_blank\">INSTAGRAM<\/a>",
-        "button_label": "",
-        "button_link": "",
         "padding_top": 60,
         "padding_bottom": 36
       }
