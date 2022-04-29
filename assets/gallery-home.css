@@ -30,11 +30,11 @@
   font-size: clamp(30px, 4vw, 40px);
   letter-spacing: 4.2px;
   margin: 0;
-  margin-bottom: 10px;
 }
 .gallery__container-item--info a {
   color: white;
   background-color: transparent !important;
+  padding: 0;
 }
 .gallery__container-item--info a::after {
   background-color: white;

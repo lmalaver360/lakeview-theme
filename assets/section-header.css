@@ -1,5 +1,5 @@
 .lakeview-header {
-  padding: 2rem clamp(2rem, 5vw, 4rem);
+  padding: 2rem clamp(1rem, 3.5vw, 4rem);
   position: relative;
 }
 

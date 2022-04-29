@@ -611,6 +611,7 @@ h6:empty {
 
 .link--text:hover {
   color: rgba(var(--color-foreground), 0.75);
+  text-decoration: underline;
 }
 
 .link-with-icon {
@@ -2285,8 +2286,22 @@ input[type='checkbox'] {
 
 .header__heading-logo {
   height: auto;
-  width: 100%;
 }
+@media screen and (max-width: 749px) {
+  .header {
+    grid-template-columns: max-content 1fr max-content;
+  }
+  .header__heading-logo {
+    width: 130%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__heading-logo {
+    width: 100%;
+  }
+}
+
 
 @media screen and (max-width: 989px) {
   .header__heading,
@@ -2613,7 +2628,7 @@ details[open] > .header__submenu-container {
 }
 
 .header__menu-item:hover span {
-  /*text-decoration: underline;*/
+  text-decoration: underline;
   text-underline-offset: 0.3rem;
 }
 
