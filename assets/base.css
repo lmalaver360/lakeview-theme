@@ -2291,12 +2291,10 @@ input[type='checkbox'] {
   .header {
     grid-template-columns: max-content 1fr max-content;
   }
-  .header__heading-logo {
-    width: 130%;
-  }
+  
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
   .header__heading-logo {
     width: 100%;
   }
