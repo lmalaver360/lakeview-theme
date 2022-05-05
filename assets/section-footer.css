@@ -510,6 +510,7 @@ noscript .localization-selector.link {
 
 .footer-block-image > img {
   height: auto;
+  width: auto;
 }
 
 .footer-block__details-content .placeholder-svg {
