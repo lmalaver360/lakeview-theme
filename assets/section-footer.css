@@ -509,8 +509,9 @@ noscript .localization-selector.link {
 
 
 .footer-block-image > img {
+  max-width: 170px;
+  width: 100%;
   height: auto;
-  width: auto;
 }
 
 .footer-block__details-content .placeholder-svg {
@@ -579,7 +580,6 @@ noscript .localization-selector.link {
   }
   .footer-block-image{
     margin-bottom: 3rem;
-    width: clamp(100px, 15vw, 170px);
   }
  
   .footer__blocks-wrapper{
@@ -605,6 +605,7 @@ noscript .localization-selector.link {
     justify-content: center;
   }
   .footer-block-image > img {
+    max-width: 170px;
     width: 100%;
   }
 }
