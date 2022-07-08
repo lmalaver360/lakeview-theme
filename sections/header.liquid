@@ -128,8 +128,21 @@
                                   {% render 'icon-arrow' %}
                                   {{ link.title | escape }}
                                 </button>
-                                <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                                  {%- for childlink in link.links -%}
+                                <ul class="menu-drawer__menu list-menu foo" role="list" tabindex="-1">
+                                  {% for product_vendor in shop.vendors %}
+                                  {% assign vendor_handle = product_vendor | handleize %}
+                                  {% assign vendor_collection = collections[vendor_handle] %}
+                                  <li class="{% if product.vendor == product_vendor %}current{% endif %} vendorsMobile">
+                                    {% if vendor_collection == empty %}{{ product_vendor | link_to_vendor }}
+                                    {% else %}{{ vendor_collection.title | link_to: vendor_collection.url }}
+                                    {% endif %}
+                                  </li>
+                                  {% endfor %}
+
+                                  
+                                  <!---
+                                    
+                                    {%- for childlink in link.links -%}
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
@@ -161,6 +174,7 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
+                                    ----->
                                 </ul>
                               </div>
                             </div>
@@ -380,31 +394,47 @@
                       </summary>
                       <div class="header__submenu-container">
                         <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
-                          {%- for childlink in link.links -%}
-                            <li>
-                              {%- if childlink.links == blank -%}
-                                <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset lakeview-header-nav-link caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                  {{ childlink.title | escape }}
-                                </a>
-                              {%- else -%}
-                                <details id="Details-HeaderSubMenu-{{ forloop.index }}">
-                                  <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                    <span>{{ childlink.title | escape }}</span>
-                                    {% render 'icon-caret' %}
-                                  </summary>
-                                  <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
-                                    {%- for grandchildlink in childlink.links -%}
-                                      <li>
-                                        <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item lakeview-header-nav-link link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                          {{ grandchildlink.title | escape }}
-                                        </a>
-                                      </li>
-                                    {%- endfor -%}
-                                  </ul>
-                                </details>
-                              {%- endif -%}
-                            </li>
-                          {%- endfor -%}
+                            {% for product_vendor in shop.vendors %}
+                              {% assign vendor_handle = product_vendor | handleize %}
+                              {% assign vendor_collection = collections[vendor_handle] %}
+                              <li class="{% if product.vendor == product_vendor %}current{% endif %} vendors">
+                                {% if vendor_collection == empty %}{{ product_vendor | link_to_vendor }}
+                                {% else %}{{ vendor_collection.title | link_to: vendor_collection.url }}
+                                {% endif %}
+                              </li>
+                            {% endfor %}
+
+                            <!---
+    
+                              {%- for childlink in link.links -%}
+                                <li>
+                                  {%- if childlink.links == blank -%}
+                                    <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset lakeview-header-nav-link caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                      {{ childlink.title | escape }}
+                                    </a>
+                                  {%- else -%}
+                                    <details id="Details-HeaderSubMenu-{{ forloop.index }}">
+                                      <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
+                                        <span>{{ childlink.title | escape }}</span>
+                                        {% render 'icon-caret' %}
+                                      </summary>
+                                      <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
+                                        {%- for grandchildlink in childlink.links -%}
+                                          <li>
+                                            <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item lakeview-header-nav-link link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                              {{ grandchildlink.title | escape }}
+                                            </a>
+                                          </li>
+                                        {%- endfor -%}
+                                      </ul>
+                                    </details>
+                                  {%- endif -%}
+                                </li>
+                              {%- endfor -%}
+                            
+
+                            ----->
+
                         </ul>
                       </div>
                     </details>
@@ -580,6 +610,19 @@
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
 {% javascript %}
+  let vendors = [...document.querySelectorAll(".vendors a")]
+  let vendorsMobile = [...document.querySelectorAll(".vendorsMobile a")]
+  if(vendors.length > 0){
+    vendors.map((item) =>{
+      item.classList.add("header__menu-item", "list-menu__item", "link", "link--text", "focus-inset", "lakeview-header-nav-link", "caption-large")
+    })
+  }
+  if(vendorsMobile.length > 0){
+    vendorsMobile.map((item)=>{
+      item.classList.add("menu-drawer__menu-item", "link", "link--text", "list-menu__item", "focus-inset")
+    })
+  }
+
   class StickyHeader extends HTMLElement {
     constructor() {
       super();
