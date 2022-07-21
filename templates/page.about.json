@@ -128,6 +128,62 @@
         "padding_bottom": 36
       }
     },
+    "165841124783e4cf88": {
+      "type": "multicolumn",
+      "blocks": {
+        "1658411247c02a492a-1": {
+          "type": "column",
+          "settings": {
+            "title": "TEAM",
+            "heading_size": "h2",
+            "text": "<p>Brooke Soffer, Founder<\/p><p>Bianca Weiser, Showroom Manager<\/p>",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        },
+        "4362cef1-c69d-4f6c-bb3e-f03d3cff2054": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_3.jpg",
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "1658411247c02a492a-1",
+        "4362cef1-c69d-4f6c-bb3e-f03d3cff2054"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "ta-center",
+        "heading_size": "h1",
+        "full_width": false,
+        "medium_width": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "align_items": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
     "instagram": {
       "type": "instagram",
       "settings": {
@@ -169,6 +225,7 @@
     "image_banner",
     "multicolumn",
     "multicolumn_2",
+    "165841124783e4cf88",
     "instagram",
     "rich_text"
   ]
