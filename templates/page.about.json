@@ -22,9 +22,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "ABOUT US",
+            "title": "WHO ARE WE",
             "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "text": "<p>Lakeview Home is a renowned, showroom established in 1996.  Since its founding, Lakeview has earned a reputation for having a beautifully curated assortment of home accessories and gifts extending exceptional one on one service.<br\/><br\/>Lakeview is home to luxury brands from around the world specializing in home accessories. Discriminating clients from near and far have come to appreciate the unique assortment of accessories to detail their homes, yachts, and aircraft interiors.  The relationships Lakeview has cultivated with their clientele has led them to build a community of happy customers they greatly cherish.<br\/><br\/>The Miami showroom is dedicated to providing a personalized shopping experience and a complete collection of exclusive brands.  The assortment has been carefully selected for trade professionals and retail customers to fully embrace. Lakeview believes in the vision of capturing beauty and quality in tactile objects and fabrications to enhance a space’s ambiance.<br\/><br\/>Throughout its history of business, Lakeview strives to satisfy each of their client’s aspirations in assisting to help create functional and authentic living environments<\/p>",
             "link_label": "",
             "description_textarea": "",
             "link": "",
@@ -92,9 +92,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "",
+            "title": "WHAT WE DO",
             "heading_size": "h0",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+            "text": "<p>Residential and Commercial Interior Detailing & Accessorizing<\/p><p>Collaborate with trade professionals and retail customers<\/p><p>In Person or Virtual Site Visits<\/p><p>In Person or Virtual Scheduled Showroom Appointment<\/p>",
             "link_label": "",
             "description_textarea": "",
             "link": "",
@@ -109,17 +109,73 @@
       ],
       "settings": {
         "title": "",
-        "title_align": "ta-center",
+        "title_align": "ta-left",
         "heading_size": "h1",
         "full_width": true,
         "medium_width": false,
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 2,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "align_items": "center",
         "background_style": "none",
         "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "165841124783e4cf88": {
+      "type": "multicolumn",
+      "blocks": {
+        "1658411247c02a492a-1": {
+          "type": "column",
+          "settings": {
+            "title": "TEAM",
+            "heading_size": "h2",
+            "text": "<p>Brooke Soffer, Founder<\/p><p>Bianca Weiser, Showroom Manager<\/p>",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        },
+        "4362cef1-c69d-4f6c-bb3e-f03d3cff2054": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_3.jpg",
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "link_label": "",
+            "description_textarea": "",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "1658411247c02a492a-1",
+        "4362cef1-c69d-4f6c-bb3e-f03d3cff2054"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "ta-center",
+        "heading_size": "h1",
+        "full_width": false,
+        "medium_width": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "align_items": "center",
+        "background_style": "none",
+        "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -169,6 +225,7 @@
     "image_banner",
     "multicolumn",
     "multicolumn_2",
+    "165841124783e4cf88",
     "instagram",
     "rich_text"
   ]
