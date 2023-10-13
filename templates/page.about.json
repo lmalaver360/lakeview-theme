@@ -164,6 +164,9 @@
         "1658411247c02a492a-1",
         "4362cef1-c69d-4f6c-bb3e-f03d3cff2054"
       ],
+      "custom_css": [
+        "a {background-color: red;}"
+      ],
       "settings": {
         "title": "",
         "title_align": "ta-center",
@@ -175,10 +178,10 @@
         "columns_desktop": 2,
         "column_alignment": "center",
         "align_items": "center",
-        "background_style": "none",
-        "button_label": "",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 44,
