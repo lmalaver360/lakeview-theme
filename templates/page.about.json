@@ -99,7 +99,7 @@
             "link_label": "",
             "description_textarea": "",
             "link": "",
-            "padding_left": 100,
+            "padding_left": 0,
             "padding_right": 0
           }
         }
