@@ -54,7 +54,7 @@
 
 .customer .login-header .tab.active{
   background-color: #ead3c4;
-          color: #fff;
+          color: #000;
 }
 
 @media screen and (min-width: 750px) {
