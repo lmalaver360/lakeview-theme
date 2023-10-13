@@ -77,6 +77,7 @@
       "blocks": {
         "column2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/mask-4.png",
             "title": "",
@@ -186,6 +187,7 @@
     },
     "instagram": {
       "type": "instagram",
+      "disabled": true,
       "settings": {
         "title": "FOLLOW US ON INSTAGRAM",
         "padding_top": 36,
