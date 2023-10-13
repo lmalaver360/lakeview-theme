@@ -34,7 +34,7 @@
 
 .customer .login-header .tab{
   width: 50%;
-  background-color: #d1d1d1;
+  background-color: var(--color-foreground);
   color: #4b4b4b;
   font-size: clamp(20px, 5vw, 27px);
   border: none;
