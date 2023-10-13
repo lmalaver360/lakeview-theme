@@ -166,7 +166,7 @@
       ],
       "custom_css": [
         "a {background-color: red; display: none;}",
-        "div {background-color: #FFF;}"
+        "div {background: #fff;}"
       ],
       "settings": {
         "title": "",
