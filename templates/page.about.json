@@ -165,7 +165,8 @@
         "4362cef1-c69d-4f6c-bb3e-f03d3cff2054"
       ],
       "custom_css": [
-        "a {background-color: red; display: none;}"
+        "a {background-color: red; display: none;}",
+        "div {background-color: none;}"
       ],
       "settings": {
         "title": "",
