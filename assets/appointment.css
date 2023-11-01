@@ -49,6 +49,7 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+      font-size: medium;
 }
 p.text.sub_text{
    padding-top: 4rem;
@@ -96,7 +97,7 @@ button.button {
 }
 @media screen and (min-width: 990px) {
 .book_appointment .page-width--narrow {
-    max-width: 100.6rem;
+    max-width: 91.6rem;
     padding: 0;
 }
 }
