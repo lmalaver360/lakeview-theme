@@ -98,6 +98,14 @@ p.text.sub_text{
 .book_appointment ul.form-status-list.caption-large li {
     text-align: left;
 }
+.book_appointment span.form__message {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.book_appointment .form-status-list {
+    padding: 0;
+    margin: 1rem 0 1rem;
+}
 @media screen and (min-width: 990px) {
 .book_appointment .page-width--narrow {
     max-width: 91.6rem;
