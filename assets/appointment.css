@@ -49,7 +49,9 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    padding-bottom: 4rem;
+}
+p.text.sub_text{
+   padding-top: 4rem;
 }
 .book_appointment .contact__fields {
     display: block;
