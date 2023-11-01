@@ -79,6 +79,11 @@ label.field__label {
     font-family: Montserrat;
     font-size: medium;
 }
+button.button {
+    max-width: 140px;
+    width: 100%;
+    text-transform: uppercase;
+}
 @media screen and (min-width: 990px) {
 .book_appointment .page-width--narrow {
     max-width: 100.6rem;
