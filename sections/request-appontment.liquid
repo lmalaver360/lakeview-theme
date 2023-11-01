@@ -51,11 +51,16 @@
             autocomplete="name"
             type="text"
             id="ContactForm-name"
-            name="contact[{{ 'templates.contact.form.name' | t }}]"
+            name="contact[First Name]"
             value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.first_name }}{% endif %}"
+            aria-required="true"
+            required
             placeholder="First Name"
           >
-          <label class="field__label" for="ContactForm-name">First Name</label>
+          <label class="field__label" for="ContactForm-name">
+            First Name
+            <span aria-hidden="true">*</span>
+          </label>
         </div>
         <div class="field">
           <input
@@ -63,11 +68,16 @@
             autocomplete="name"
             type="text"
             id="ContactForm-name"
-            name="contact[{{ 'templates.contact.form.name' | t }}]"
+            name="contact[Last Name]"
             value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}"
+            aria-required="true"
+            required
             placeholder="Last Name"
           >
-          <label class="field__label" for="ContactForm-name">Last Name</label>
+          <label class="field__label" for="ContactForm-name">
+            Last Name
+            <span aria-hidden="true">*</span>
+          </label>
         </div>
         <div class="field field--with-error">
           <input
@@ -120,14 +130,16 @@
           <textarea
             rows="10"
             id="ContactForm-body"
+            required
             class="text-area field__input"
             name="contact[{{ 'templates.contact.form.comment' | t }}]"
             placeholder="{{ 'templates.contact.form.comment' | t }}"
           >
-            {{- form.body -}}
-          </textarea>
+          {{- form.body -}}
+        </textarea>
           <label class="form__label field__label" for="ContactForm-body">
             {{- 'templates.contact.form.comment' | t -}}
+            <span aria-hidden="true" style="padding-left: 2px;">*</span>
           </label>
         </div>
       {% endcomment %}
