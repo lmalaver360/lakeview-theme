@@ -74,6 +74,11 @@ p.text.sub_text{
 .book_appointment .field:after {
     border-bottom: 1px solid #000;
 }
+label.field__label {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: medium;
+}
 @media screen and (min-width: 990px) {
 .book_appointment .page-width--narrow {
     max-width: 100.6rem;
