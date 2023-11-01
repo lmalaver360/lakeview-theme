@@ -53,9 +53,9 @@
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.first_name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
+            placeholder="First Name"
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <label class="field__label" for="ContactForm-name">First Name</label>
         </div>
         <div class="field">
           <input
@@ -65,9 +65,9 @@
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}"
-            placeholder="First Name"
+            placeholder="Last Name"
           >
-          <label class="field__label" for="ContactForm-name">First Name</label>
+          <label class="field__label" for="ContactForm-name">Last Name</label>
         </div>
         <div class="field field--with-error">
           <input
@@ -84,10 +84,10 @@
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
             {% endif %}
-            placeholder="Last Name"
+            placeholder="{{ 'templates.contact.form.email' | t }}"
           >
           <label class="field__label" for="ContactForm-email">
-            Last Name
+            {{- 'templates.contact.form.email' | t }}
             <span aria-hidden="true">*</span></label
           >
           {%- if form.errors contains 'email' -%}
