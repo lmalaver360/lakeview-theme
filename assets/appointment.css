@@ -53,3 +53,7 @@
 .book_appointment .contact__fields {
     display: block;
 }
+form#ContactForm {
+    max-width: 500px;
+    margin: auto;
+}
