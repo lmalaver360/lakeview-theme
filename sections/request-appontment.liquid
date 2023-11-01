@@ -20,6 +20,7 @@
       {{ section.settings.heading | escape }}
     </h2>
     <p class="text">{{ section.settings.detail }}</p>
+    <p class="sub_text">{{ section.settings.subdetail }}</p>
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-list form__message" tabindex="-1" autofocus>
@@ -141,6 +142,12 @@
       "id": "detail",
       "default": "Add Detail to explain",
       "label": "Detail"
+    },
+    {
+      "type": "textarea",
+      "id": "subdetail",
+      "default": "Add Detail",
+      "label": "Sub Detail"
     },
     {
       "type": "select",
