@@ -59,6 +59,7 @@ p.text.sub_text{
 .book_appointment form#ContactForm {
     max-width: 540px;
     margin: auto;
+  padding-bottom: 3rem;
 }
 .book_appointment p.text.sub_text {
     font-size: medium;
