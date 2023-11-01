@@ -58,7 +58,7 @@
     max-width: 500px;
     margin: auto;
 }
-.book_appointment .field:focus-visible,
+.book_appointment:focus-visible.field:after,
 .book_appointment .field:hover.field:after,
 .book_appointment .field:after {
     box-shadow: none;
