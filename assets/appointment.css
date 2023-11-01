@@ -50,3 +50,6 @@
     line-height: 30px;
     text-align: center;
 }
+.book_appointment .contact__fields {
+    display: block;
+}
