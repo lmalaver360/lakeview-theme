@@ -70,3 +70,9 @@ p.text.sub_text{
 .book_appointment .field:after {
     border-bottom: 1px solid #000;
 }
+@media screen and (min-width: 990px) {
+.book_appointment .page-width--narrow {
+    max-width: 100.6rem;
+    padding: 0;
+}
+}
