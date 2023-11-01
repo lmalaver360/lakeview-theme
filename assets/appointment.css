@@ -97,6 +97,7 @@
 }
 .book_appointment ul.form-status-list.caption-large li {
     text-align: left;
+  display:none;
 }
 .book_appointment span.form__message {
     margin-top: 0;
