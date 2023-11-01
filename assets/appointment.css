@@ -78,12 +78,12 @@ p.text.sub_text{
 .book_appointment .field:after {
     border-bottom: 1px solid #000;
 }
-label.field__label {
+.book_appointment label.field__label {
     text-transform: uppercase;
     font-family: Montserrat;
     font-size: medium;
 }
-button.button {
+.book_appointment button.button {
     max-width: 140px;
     width: 100%;
     text-transform: uppercase;
@@ -94,6 +94,9 @@ button.button {
     color: #000;
     background-color: #ead3c4;
     text-transform: uppercase;
+}
+.book_appointment ul.form-status-list.caption-large li {
+    text-align: left;
 }
 @media screen and (min-width: 990px) {
 .book_appointment .page-width--narrow {
