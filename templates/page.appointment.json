@@ -61,6 +61,7 @@
       "settings": {
         "heading": "Book Appointment",
         "detail": "Explore our world of design through in-person or virtual experiences. Book your appointment now to visit our showroom, where creativity meets comfort. Whether you prefer the warmth of in-person interactions or the convenience of virtual consultations, our team is ready to guide you through every detail.",
+        "subdetail": "Fill out the form below and a consultant will reach out to you to book your appointment with us.",
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 68,
