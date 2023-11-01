@@ -65,6 +65,7 @@ p.text.sub_text{
     font-size: medium;
     text-align: left;
 }
+.book_appointment .button:after,
 .book_appointment .field__input:focus-visible,
 .book_appointment .field:hover.field:after,
 .book_appointment .field:after {
@@ -83,6 +84,13 @@ label.field__label {
 button.button {
     max-width: 140px;
     width: 100%;
+    text-transform: uppercase;
+}
+ .book_appointment button.button {
+    max-width: 140px;
+    width: 100%;
+    color: #000;
+    background-color: #ead3c4;
     text-transform: uppercase;
 }
 @media screen and (min-width: 990px) {
