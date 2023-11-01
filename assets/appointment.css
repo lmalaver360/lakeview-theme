@@ -57,7 +57,7 @@ p.text.sub_text{
     display: block;
 }
 .book_appointment form#ContactForm {
-    max-width: 500px;
+    max-width: 540px;
     margin: auto;
 }
 .book_appointment .field__input:focus-visible,
