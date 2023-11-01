@@ -63,3 +63,8 @@
 .book_appointment .field:after {
     box-shadow: none;
 }
+ .book_appointment .field__input:focus-visible,
+.book_appointment .field:hover.field:after,
+.book_appointment .field:after {
+    border-bottom: 1px solid #000;
+}
