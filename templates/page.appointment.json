@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "link_label": "",
+            "description_textarea": "<p>2980 NORTHEAST 207 STREET\nNO. 105\nAVENTURA, FL  33180\n<a href=\"https:\/\/www.google.com\/maps\/place\/2980+NE+207th+St+%23105,+Aventura,+FL+33180,+USA\/@25.9668874,-80.1448253,17z\/data=!3m1!4b1!4m5!3m4!1s0x88d9ac8a842b143b:0xe2c0cdf2b9b396b7!8m2!3d25.9668826!4d-80.1422504?entry=ttu\" target=\"_blank\">DIRECTIONS<\/a><br>\nCONTACT\nINFO@LAKEVIEWHOME.COM\n786-651-3938<br>\n\n<\/p>",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "link_label": "",
+            "description_textarea": "<p>STORE HOURS\nMON - SAT: 10:00AM - 6:00PM <br>SUN: 10:00AM - 5:00PM<br>\nWORK WITH US: SEND EMAILS TO\nINFO@LAKEVIEWHOME.COM\n<\/p>",
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
+          }
+        }
+      },
+      "block_order": [
+        "column2",
+        "column1"
+      ],
+      "settings": {
+        "title": "CONTACT",
+        "title_align": "ta-left",
+        "heading_size": "h0",
+        "full_width": false,
+        "medium_width": true,
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "align_items": "start",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "multicolumn"
+  ]
+}
