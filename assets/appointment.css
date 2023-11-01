@@ -51,8 +51,8 @@
     text-align: center;
       font-size: medium;
 }
-p.text.sub_text{
-   padding-top: 4rem;
+.book_appointment p.text.sub_text{
+   padding-top: 2rem;
 }
 .book_appointment .contact__fields {
     display: block;
