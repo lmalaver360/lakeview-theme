@@ -115,22 +115,20 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
-      {% comment %}
-        <div class="field">
-          <textarea
-            rows="10"
-            id="ContactForm-body"
-            class="text-area field__input"
-            name="contact[{{ 'templates.contact.form.comment' | t }}]"
-            placeholder="{{ 'templates.contact.form.comment' | t }}"
-          >
+      <div class="field">
+        <textarea
+          rows="10"
+          id="ContactForm-body"
+          class="text-area field__input"
+          name="contact[{{ 'templates.contact.form.comment' | t }}]"
+          placeholder="{{ 'templates.contact.form.comment' | t }}"
+        >
             {{- form.body -}}
           </textarea>
-          <label class="form__label field__label" for="ContactForm-body">
-            {{- 'templates.contact.form.comment' | t -}}
-          </label>
-        </div>
-      {% endcomment %}
+        <label class="form__label field__label" for="ContactForm-body">
+          {{- 'templates.contact.form.comment' | t -}}
+        </label>
+      </div>
       <div class="contact__button">
         <button type="submit" class="button">Submit</button>
       </div>
