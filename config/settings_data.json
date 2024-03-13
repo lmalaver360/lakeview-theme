@@ -177,14 +177,8 @@
 
     ],
     "blocks": {
-      "7046932070715527255": {
-        "type": "shopify:\/\/apps\/puco-sections-blocks\/blocks\/app-embed-javascript\/f1ea0cb9-0193-44b7-bab7-d0fd6bec6cbf",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "12723626199553905971": {
-        "type": "shopify:\/\/apps\/puco-sections-blocks\/blocks\/app-embed-stylesheet\/f1ea0cb9-0193-44b7-bab7-d0fd6bec6cbf",
+      "21474836472147483647": {
+        "type": "shopify:\/\/apps\/ecomposer-landing-page-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
         "disabled": false,
         "settings": {
         }
